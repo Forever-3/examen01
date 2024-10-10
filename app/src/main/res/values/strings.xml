@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">examen01</string>
+    <string name="title1">Casinito Forever</string>
+    <string name="subtitulo">Datos del jugador</string>
+    <string name="player">Nombre del jugador</string>
+    <string name="lblplayer">acaeljugador</string>
+    <string name="birthdate">Casinito Forever</string>
+    <string name="playbutton">Ingresar</string>
+    <string name="btnPlay">a</string>
+</resources>
