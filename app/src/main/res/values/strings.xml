@@ -5,6 +5,9 @@
     <string name="player">Nombre del jugador</string>
     <string name="lblplayer">acaeljugador</string>
     <string name="birthdate">Casinito Forever</string>
+    <string name="FecNac">Fecha de nacimiento</string>
+    <string name="funds">Fondo de apuestas</string>
     <string name="playbutton">Ingresar</string>
     <string name="btnPlay">a</string>
+    <string name="textoLorem">Este es un juego divertidísimo :p</string>
 </resources>
