@@ -3,11 +3,11 @@
     <string name="title1">Casinito Forever</string>
     <string name="subtitulo">Datos del jugador</string>
     <string name="player">Nombre del jugador</string>
-    <string name="lblplayer">acaeljugador</string>
     <string name="birthdate">Casinito Forever</string>
     <string name="FecNac">Fecha de nacimiento</string>
     <string name="funds">Fondo de apuestas</string>
+    <string name="pieces">Cantdados</string>
     <string name="playbutton">Ingresar</string>
     <string name="btnPlay">a</string>
-    <string name="textoLorem">Este es un juego divertidísimo :p</string>
+    <string name="textoLorem">Los juegos de azar pueden volverse adictivos y afectar tu bienestar. Juega con responsabilidad!</string>
 </resources>
