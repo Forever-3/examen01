@@ -10,4 +10,24 @@
     <string name="playbutton">Ingresar</string>
     <string name="btnPlay">a</string>
     <string name="textoLorem">Los juegos de azar pueden volverse adictivos y afectar tu bienestar. Juega con responsabilidad!</string>
+    <!-- Radio Button-->
+    <string name="lbl01">01</string>
+    <string name="lbl02">02</string>
+    <string name="lbl03">03</string>
+    <string name="lbl04">04</string>
+    <string name="lbl05">05</string>
+    <string name="lbl06">06</string>
+    <string name="lbl07">07</string>
+    <string name="lbl08">08</string>
+    <string name="lbl09">09</string>
+    <string name="lbl10">10</string>
+    <string name="lbl11">11</string>
+    <string name="lbl12">12</string>
+    <string name="lbl13">13</string>
+    <string name="lbl14">14</string>
+    <string name="lbl15">15</string>
+    <string name="lbl16">16</string>
+    <string name="lbl17">17</string>
+    <string name="lbl18">18</string>
+    <string name="lbl19">19</string>
 </resources>

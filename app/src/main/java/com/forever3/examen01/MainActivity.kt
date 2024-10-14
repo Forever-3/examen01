@@ -15,7 +15,7 @@ import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
-    //
+    /*
     private lateinit var txtplayerName: EditText
     private lateinit var txtfunds: EditText
     private lateinit var txtbirthdate: DatePicker
@@ -25,12 +25,12 @@ class MainActivity : AppCompatActivity() {
 
     private var playerName: String = ""
     private var funds: String = ""
-
+*/
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-
+    /*
         txtplayerName = findViewById(R.id.txtplayerName)
         txtfunds = findViewById(R.id.txtfunds)
         txtbirthdate = findViewById(R.id.birthdate)
@@ -51,6 +51,8 @@ class MainActivity : AppCompatActivity() {
 
 
         }
+
+     */
     }
 
 
