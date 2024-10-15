@@ -59,7 +59,7 @@
                     android:textStyle="bold" />
 
                 <EditText
-                    android:id="@+id/lblCedula"
+                    android:id="@+id/lblPlayerName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -80,7 +80,7 @@
                     android:textStyle="bold" />
 
                 <EditText
-                    android:id="@+id/lblNombre"
+                    android:id="@+id/lblFunds"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10" />
@@ -100,7 +100,7 @@
                     android:textStyle="bold" />
 
                 <EditText
-                    android:id="@+id/lblPieces"
+                    android:id="@+id/MontoApostar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -111,6 +111,10 @@
     </LinearLayout>
 
     <!--Dados-->
+
+
+    <!--lblPieces-->
+
     <TableLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -157,17 +161,17 @@
     <!--Layout Central-->
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Marca tu apuesta"
-            android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.520"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.129" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marca tu apuesta"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.520"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.129" />
 
     <GridLayout
         android:layout_width="wrap_content"
@@ -326,9 +330,9 @@
     <ImageView
         android:layout_width="140dp"
         android:layout_height="140dp"
-        android:layout_marginStart="660dp"
+        android:layout_marginStart="600dp"
         android:layout_marginTop="132dp"
-        android:src="@mipmap/neutro1"
+        android:src="@mipmap/gato"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

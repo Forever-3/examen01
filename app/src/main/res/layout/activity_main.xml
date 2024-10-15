@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <ImageView
         android:layout_width="102dp"
         android:layout_height="97dp"
@@ -31,18 +30,18 @@
     <ImageView
         android:layout_width="95dp"
         android:layout_height="95dp"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="160dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="144dp"
         android:src="@mipmap/logo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/txtplayerName"
+        android:id="@+id/etPlayerName"
         android:layout_width="245dp"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="@string/player"
+        android:hint="@string/player"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -58,10 +57,10 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintHorizontal_bias="0.524"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.174" />
+        app:layout_constraintVertical_bias="0.15" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -76,11 +75,11 @@
         app:layout_constraintVertical_bias="0.391" />
 
     <EditText
-        android:id="@+id/txtfunds"
+        android:id="@+id/etFunds"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:inputType="number"
-        android:text="@string/funds"
+        android:hint="@string/etfunds"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -89,14 +88,14 @@
         app:layout_constraintVertical_bias="0.622" />
 
     <NumberPicker
-        android:id="@+id/txtpieces"
+        android:id="@+id/numberPickerPieces"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="240dp"
-        android:layout_marginTop="480dp"
+        android:layout_marginTop="520dp"
+        android:inputType="none"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:inputType="none" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -111,7 +110,7 @@
         app:layout_constraintVertical_bias="0.705" />
 
     <DatePicker
-        android:id="@+id/birthdate"
+        android:id="@+id/datePickerBirthdate"
         android:layout_width="200dp"
         android:layout_height="215dp"
         android:scaleX="0.8"
@@ -136,7 +135,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.810" />
-
 
     <TextView
         android:layout_width="301dp"
